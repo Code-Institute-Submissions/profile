@@ -12,7 +12,9 @@ Hover.css, distributed by cdnjs.com
 PurpleBooth README.md basic template
 
 Love-running project
+hero-zoom animation from love-running project
 
+Help from www.w3schools.com
 
 <!-----------------------------------------------------------------------------Images-->
 Images from unsplash

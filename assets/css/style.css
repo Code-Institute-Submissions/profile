@@ -203,24 +203,123 @@ ul{
 }
 
 .my-skills-list{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 10%;
+
+    font-size: 18px;
 }
 
 
-/*--------------------------------------------my-skills*/
+/*--------------------------------------------brands*/
+
+.list-brands{
+
+}
 
  .brands{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
+    margin: auto;
+
+    height: 60px;
+    width: 70px;
+
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
  } 
  
- #unilever{}
- #luxxotica{}
- #barilla{}
- #generali{}
- #lambo{}
- #ducati{}
- #schwarzwkopf{}
- #syoss{}
- #barnangen{}
- #ba-sthlm{}
- #nae{}
+ #unilever{
+     background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #luxxotica{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #barilla{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #generali{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+#heineken{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #lambo{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #ducati{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #schwarzkopf{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #syoss{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #barnangen{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #ba-sthlm{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+ #nae{
+    background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
+ }
+
+
+/*--------------------------------------------recommendations*/
+#recommendations{
+    text-align: center;
+    height: 600px;
+}
+
+
+/*--------------------------------------------contact*/
+
+/*coffee pictures from unsplash
+White cup
+https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60
+
+With notebook
+https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80
+
+Laptop & coffee
+https://images.unsplash.com/photo-1534432295314-d934309ea09d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80
+
+Different types of coffee
+https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+*/
+
+#contact{
+    text-align: center;
+    height: 500px;
+
+    background-image: url("https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-form{
+    float: center;
+}
+
+.form{
+    padding-top: 20px;
+}
+

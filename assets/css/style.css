@@ -121,12 +121,20 @@ section{
     border: 1px solid grey;
     background-color: rgba(60, 60, 60, .6);
     width: 100%;
+}
 
-
+.container{
+    padding-top: 6px;
 }
 
 span{
     padding-top: 6px;
     width: 6px;
+}
+
+.icons{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
 }
 

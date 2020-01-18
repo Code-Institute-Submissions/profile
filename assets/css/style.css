@@ -1,3 +1,8 @@
+/*--------------------------------------------fonts*/
+@import url('https://fonts.googleapis.com/css?family=Gudea|Viga&display=swap');
+
+
+/*--------------------------------------------header*/
 .jumbotron{
     height:600px;
     width: 100%;
@@ -18,7 +23,7 @@
     margin-right: 2%;
 
     position: absolute;
-    top: 15px;
+    top: 25px;
 
     background-color: rgba(60, 60, 60, .8);
 }
@@ -46,11 +51,22 @@ left padding is 20px
 */
 
 h1{
+    font-family: viga;
+
     padding-top: 100px;
     font-size: 12px;
 }
 
-section{
-    padding: 0% 2% 0% 2%;
+
+/*--------------------------------------------sections*/
+h2{
+    text-transform: uppercase;
 }
 
+section{
+    padding: 0% 4% 0% 4%;
+}
+
+#profile-picture{
+    background: url("https://images.unsplash.com/photo-1557732909-13795a18b53c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80")
+}

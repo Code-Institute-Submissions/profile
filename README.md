@@ -20,6 +20,8 @@ Font Awesome library, distributed by bootsrapcdn.com
 Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
+Github troubleshooting guide - Adobe Flash Builder
+
 <!-----------------------------------------------------------------------------Images-->
 Images from unsplash
 

@@ -4,7 +4,7 @@
 /*--------------------------------------------headers styling*/
 
 h1, h2, h3, p{
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     padding-top: 10px;
 }
 
@@ -19,7 +19,7 @@ h2, h3{
 }
 
 h2{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -117,7 +117,7 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
 
 /*--------------------------------------------my-work*/
 #my-work{
-    height:1200px;
+    height:1700px;
     width: 100%;
     
     margin-left: 2px;
@@ -131,41 +131,47 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
 }
 
 .col-sm{
-    background-color: rgba(50, 50, 50, .8);
-    width: 200px;
-    height: 300px;
-    top: 50%;
+    background-color: rgb(242, 242, 242, .9);
+    height: 240px;
+
+    position: relative;
+    top: 15%;
+}
+
+.col-sm h3,
+.col-sm p{
+    color: #333333;
+    
+    text-align: center;
+    position: relative;
+    top: 10%;
 }
 
 .col-sm h3{
     padding-top: 25px;
 }
 
-.col-sm h3,
-.col-sm p{
-    color: #fafafa;
-    text-align: center;
-}
-
 .container{
-    padding-top: 9px;
+    padding-top: 8px;
 }
 
 span{
-    padding-top: 9px;
-    width: 9px;
+    padding-top: 8px;
+    width: 8px;
 }
 
 .icons{
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 
-    height: 26px;
-    width: 26px;
+    height: 30px;
+    width: 30px;
 
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-top: 36px;
+    margin-left: 4px;
+    margin-right: 4px;
     margin-bottom: 16px;
 }
 
@@ -188,3 +194,33 @@ span{
 #i-linkedin{
     background-image: url("https://image.flaticon.com/icons/svg/174/174855.svg");
 }
+
+
+/*--------------------------------------------my-skills*/
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+.my-skills-list{
+    margin-top: 10px;
+}
+
+
+/*--------------------------------------------my-skills*/
+
+ .brands{
+
+ } 
+ 
+ #unilever{}
+ #luxxotica{}
+ #barilla{}
+ #generali{}
+ #lambo{}
+ #ducati{}
+ #schwarzwkopf{}
+ #syoss{}
+ #barnangen{}
+ #ba-sthlm{}
+ #nae{}

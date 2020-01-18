@@ -31,6 +31,7 @@ p{
     font-size: 16px;
 }
 
+
 /*--------------------------------------------header*/
 .jumbotron{
     height:600px;
@@ -280,6 +281,20 @@ ul{
  #nae{
     background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
  }
+
+
+/*--------------------------------------------studies & certifications*/
+#education ul{
+    text-align: center;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+
+    color: #333333;
+}
 
 
 /*--------------------------------------------recommendations*/

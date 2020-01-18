@@ -107,34 +107,84 @@ section{
     padding-top: 35px;
     text-align: center;
 }
+/*--------------------------------------------unsplash-pictures*/
+/*
+https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+https://images.unsplash.com/photo-1528297506728-9533d2ac3fa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+*/
 
 /*--------------------------------------------my-work*/
 #my-work{
-    height:1500px;
+    height:1200px;
     width: 100%;
     
     margin-left: 2px;
     margin-right: 2px;
+
+    background: url("https://images.unsplash.com/photo-1528297506728-9533d2ac3fa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .col-sm{
-    border: 1px solid grey;
-    background-color: rgba(60, 60, 60, .6);
-    width: 100%;
+    background-color: rgba(50, 50, 50, .8);
+    width: 200px;
+    height: 300px;
+    top: 50%;
+}
+
+.col-sm h3{
+    padding-top: 25px;
+}
+
+.col-sm h3,
+.col-sm p{
+    color: #fafafa;
+    text-align: center;
 }
 
 .container{
-    padding-top: 6px;
+    padding-top: 9px;
 }
 
 span{
-    padding-top: 6px;
-    width: 6px;
+    padding-top: 9px;
+    width: 9px;
 }
 
 .icons{
     display: inline-block;
-    height: 16px;
-    width: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 26px;
+    width: 26px;
+
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 16px;
 }
 
+#i-instagram{
+    background-image: url("https://image.flaticon.com/icons/svg/174/174855.svg");
+}
+
+#i-facebook{
+    background-image: url("https://image.flaticon.com/icons/svg/174/174855.svg");
+}
+
+#i-youtube{
+    background-image: url("https://image.flaticon.com/icons/svg/174/174855.svg");
+}
+
+#i-gdn{
+    background-image: url("https://image.flaticon.com/icons/svg/174/174855.svg");
+}
+
+#i-linkedin{
+    background-image: url("https://image.flaticon.com/icons/svg/174/174855.svg");
+}

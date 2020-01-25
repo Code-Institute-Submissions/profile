@@ -92,8 +92,6 @@ left padding is 20px
 }
 
 /*--------------------------------------------sections*/
-
-
 section{
     padding: 0% 4% 0% 4%;
 }
@@ -104,7 +102,6 @@ section{
     width: 100%;
 
     background-image: url("../images/profile-half.png");
-    background-image: url("../images/profile-half-dark.png");
 
     background-position: center;
     background-repeat: no-repeat;
@@ -142,7 +139,7 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
 }
 
 .col-sm{
-    background-color: rgb(242, 242, 242, .9);
+    background-color: rgb(242, 242, 242, .7);
 
     height: 245px;
 
@@ -180,21 +177,24 @@ span{
 /*--------------------------------------------my-skills*/
 ul{
     list-style: none;
-    text-align: left;
 }
 
 .my-skills-list{
-    margin-top: 15px;
-    margin-left: 10%;
-
-    font-size: 18px;
+    text-align: center;
 }
 
 
 /*--------------------------------------------brands*/
 
-.list-brands{
+#my-brands{
+    background-image: url("../images/lamp.png");
+    height: 500px;
 
+    margin: auto;
+}
+
+.brand-container{
+    text-align: center;
 }
 
  .brands{
@@ -212,66 +212,7 @@ ul{
     margin-left: 6px;
     margin-right: 6px;
     margin-bottom: 6px;
- } 
- 
- #unilever{
-     background-image: url("https://png2.cleanpng.com/sh/6b34899b76d3ddbd0ac652bdaf1c4d8f/L0KzQYm3V8A4N6FvR91yc4Pzfri0lf5qdJZ7feQ2bHBqf37plgNqdpZ4i59rcnHxdH7qiPlmbl5qkNdsdYTshra0VfI1OWNretZsZEK1QIe1UMEyQGM7SKc6NUOzSYqBV8E4QGU1SpD5bne=/kisspng-unilever-logo-business-brand-chief-executive-5b412fbdcd2206.0118260515309987178402.png");
  }
-
- #luxxotica{
-    background-image: url("");
-    height: 40px;
-    width: 90px;
- }
-
- #barilla{
-    background-image: url("https://i4.aroq.com/3/barilla.jpg");
-    width: 90px;
- }
-
- #generali{
-    background-image: url("https://www.generali.com/docroot/generalicom-templating/images/generali-logo-big.svg");
- }
-
-#heineken{
-    background-image: url("https://www.heineken.com/se/~/resources/heineken/shared/logo/logo.svg?v=00010101_000000&la=en&hash=2ABEC51A9963700A62CD3213FD59B7E528488916");
-    background-color: green;
- }
-
- #lambo{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5sGsaYxCmsnHc42W4IlTRfjWDUqBwMzb6Ln95ldIPaiRZB1rk&s");
-    width: 90px;
- }
-
- #ducati{
-    background-image: url("https://assets.ducati.com/dist/0.0.46/assets/img/ducati_id.png");
-    height: 64px;
- }
-
- #schwarzkopf{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc97BfAS1skt-m09tYjMOFBOFB33JHtMRg8QUlgEYLRx_j-FX5vw&s");
-    width: 100px;
- }
-
- #syoss{
-    background-image: url("");
-    width: 90px;
- }
-
- #barnangen{
-    background-image: url("https://www.barnangen.se/content/dam/barnangen/se_classic/sv/Barnangenclassic/logo/barnaengen-logo.png");
-    width: 90px;
- }
-
- #ba-sthlm{
-    background-image: url("https://www.henkel.com/resource/image/869234/1x1/335/335/781bcd542aab8b1b98e8c2447e8e224a/qg/barnaengen-logo.png");
-    width: 90px;
- }
-
- #nae{
-    background-image: url("");
- }
-
 
 /*--------------------------------------------studies & certifications*/
 #education ul{
@@ -286,13 +227,11 @@ ul{
     color: #333333;
 }
 
-
 /*--------------------------------------------recommendations*/
 #recommendations{
     text-align: center;
     height: 600px;
 }
-
 
 /*--------------------------------------------contact*/
 
@@ -328,7 +267,6 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
     padding-top: 20px;
 }
 
-
 #navigation-menu,
 .nav-item,
 .nav-link,
@@ -347,8 +285,6 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
 #navigation-menu a:hover{
     color: black;
 }
-
-
 
 
 /*-------------------------------------------@media-queries*/
@@ -375,10 +311,9 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
         background-image: url("../images/profile-vertical.png");  
         height: 600px;
 
-        background-size: cover;
+        background-size: contain;
     }
 }
-
 
 /*-----------------------------------my-work*/
 @media only screen and (max-width: 992px) {
@@ -407,3 +342,32 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
     }
 }
 
+/*-----------------------------------my-brands*/
+@media (max-width: 992px) {
+    #my-brands{
+        height: 540px;
+    }
+
+    .brand-logos{
+        height: 360px;
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #my-brands{
+        height: 400px;
+    }
+
+    .brand-logos{
+        height: 174px;
+        width: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .brand-logos{
+        height: 146px;
+        width: auto;
+    }
+}

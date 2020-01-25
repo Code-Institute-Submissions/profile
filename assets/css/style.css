@@ -38,11 +38,11 @@ p{
     height:600px;
     width: 100%;
     
-    background-image: url("https://images.unsplash.com/photo-1516131206008-dd041a9764fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
-    background-position: center;
+    background-image: url("../images/open-doors.png");
+
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
 }
 
 
@@ -55,8 +55,6 @@ p{
 
     position: absolute;
     top: 80px;
-
-    background-color: rgba(60, 60, 60, .8);
 }
 
 .container-title h1,
@@ -67,11 +65,11 @@ p{
     margin-right: 2%;
 
     padding-left: 40px;
-    padding-right: 10px;
+    padding-right: 40px;
 
     text-align: center;
     overflow: hidden;
-    color: white;
+    color:  rgba(60, 60, 60;
 }
 
 /*
@@ -363,6 +361,14 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
     }
 }
 
-.navbar-toggler{
-    background:rgba(229, 229, 229, .75);
+#navigation-menu,
+.navbar-toggler,
+.nav-item,
+.nav-link,
+#navbarNavDropdown,
+.dropdown-menu,
+.dropdown-item,
+{
+    background-color: rgba(60, 60, 60);
+    color:rgba(229, 229, 229);
 }

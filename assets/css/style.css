@@ -35,7 +35,7 @@ p{
 
 /*--------------------------------------------header*/
 .jumbotron{
-    height:600px;
+    height:700px;
     width: 100%;
     
     background-image: url("../images/open-doors.png");
@@ -43,8 +43,15 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
+@media (max-width: 500px) {
+    .jumbotron{
+        background-size: cover;
+        background-position: top;
+    }
+}
 
 .container-title{
     height: 560px;
@@ -54,7 +61,7 @@ p{
     margin-right: 2%;
 
     position: absolute;
-    top: 80px;
+    vertical-align: middle;
 }
 
 .container-title h1,
@@ -63,13 +70,13 @@ p{
     
     margin-left: 2%;
     margin-right: 2%;
-
     padding-left: 40px;
     padding-right: 40px;
 
     text-align: center;
     overflow: hidden;
-    color:  rgba(60, 60, 60;
+
+    color:  rgba(60, 60, 60);
 }
 
 /*
@@ -96,17 +103,44 @@ section{
     height:500px;
     width: 100%;
 
-    background: url("https://images.unsplash.com/photo-1550926781-93aef598b010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("../images/profile-half.png");
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .text-block{
     padding-top: 35px;
+
     text-align: center;
+    vertical-align: middle;
 }
+
+/*-------------------------------------mobile-about-me*/
+
+@media (max-width: 500px) {
+#about-me{
+    background-image: none;
+    height: 840px;
+}
+
+.container-title h1,
+.container-title p{
+    text-align: center;
+    vertical-align: middle;
+    }
+
+#profile-picture-mobile{
+    background-image: url("../images/profile-vertical.png");  
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 500px;
+
+    }
+}
+
 /*--------------------------------------------unsplash-pictures*/
 /*
 https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
@@ -123,7 +157,7 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
     margin-left: 2px;
     margin-right: 2px;
 
-    background: url("https://images.unsplash.com/photo-1528297506728-9533d2ac3fa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("../images/chair-and-laptop.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -362,13 +396,21 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
 }
 
 #navigation-menu,
-.navbar-toggler,
 .nav-item,
 .nav-link,
 #navbarNavDropdown,
 .dropdown-menu,
-.dropdown-item,
-{
-    background-color: rgba(60, 60, 60);
-    color:rgba(229, 229, 229);
+.dropdown-item,{
+    text-transform: uppercase;
+}
+
+#navigation-menu{
+    background-color: rgba(229, 229, 229);
+    transition: 0.4s;
+    position: fixed;
+}
+
+#navigation-menu a:hover{
+    background-color: #ddd;
+    color: black;
 }

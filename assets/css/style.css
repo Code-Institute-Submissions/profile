@@ -36,7 +36,7 @@ body{
     scroll-behavior: smooth;
 }
 
-/*--------------------------------------------header*/
+/*--------------------------------------------landing-view*/
 .jumbotron{
     height:700px;
     width: 100%;
@@ -47,13 +47,6 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
-
-@media only screen and (max-width: 600px) {
-    .jumbotron{
-        background-size: cover;
-        background-position: top;
-    }
 }
 
 .container-title{
@@ -118,56 +111,11 @@ section{
     background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
-#about-me{
-    background-image: none;
-    background-repeat: no-repeat;
-    height: 800px;
-}
-
-.container-title h1,
-.container-title p{
-    text-align: center;
-    vertical-align: middle;
-    }
-
-#profile-picture-mobile{
-    background-image: url("../images/profile-vertical.png");  
-    height: 600px;
-
-    background-size: cover;
-
-    }
-}
-
 .text-block{
     padding-top: 35px;
 
     text-align: center;
     vertical-align: middle;
-}
-/*-------------------------------------mobile-about-me*/
-
-@media only screen and (max-width: 600px) {
-    #about-me{
-        background-image: none;
-        height: 840px;
-    }
-
-    .container-title h1,
-    .container-title p{
-        text-align: center;
-        vertical-align: middle;
-        }
-
-    #profile-picture-mobile{
-        background-image: url("../images/profile-vertical.png");  
-        background-size: contain;
-        background-repeat: no-repeat;
-
-        height: 500px;
-
-        }
 }
 
 /*--------------------------------------------unsplash-pictures*/
@@ -218,22 +166,10 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
     padding-top: 25px;
 }
 
-/*-------------------------------------------mobile-my-work*/
-@media only screen and (max-width: 600px) {
-
-    .col-sm{
-        height: 260px;
-    }
-
-    .work-icons{
-        width: 360px;
-        height: 60px;
-    }
-}
-
 .work-icons{
-    width: 245px;
+    width: auto;
     height: 45px;
+    position: center;
 }
 
 span{
@@ -392,13 +328,6 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
     padding-top: 20px;
 }
 
-/*--------------------------------------------media queries*/
-/*--------------------work*/
-@media only screen and (max-width: 992px) {
-    #my-work {
-        height: 1800px;
-    }
-}
 
 #navigation-menu,
 .nav-item,
@@ -418,3 +347,63 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
 #navigation-menu a:hover{
     color: black;
 }
+
+
+
+
+/*-------------------------------------------@media-queries*/
+/*-----------------------------------landing-view*/
+@media only screen and (max-width: 600px) {
+    .jumbotron{
+        background-size: cover;
+        background-position: top;
+    }
+}
+/*-----------------------------------about-me*/
+@media only screen and (max-width: 600px) {
+    #about-me{
+        background-image: none;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+    .container-title h1,
+    .container-title p{
+        text-align: center;
+        vertical-align: middle;
+    }
+    #profile-picture-mobile{
+        background-image: url("../images/profile-vertical.png");  
+        height: 600px;
+
+        background-size: cover;
+    }
+}
+
+
+/*-----------------------------------my-work*/
+@media only screen and (max-width: 992px) {
+    #my-work{
+        height: 900px;
+    }
+    .col-sm{
+        height: 320px;
+    }
+    .work-icons{
+        width: auto;
+        height: 38px;
+    }
+}
+
+@media (max-width: 600px) {
+    #my-work{
+        height: 1850px;
+    }
+    .col-sm{
+        height: 265px;
+    }
+    .work-icons{
+        width: auto;
+        height: 44px;
+    }
+}
+

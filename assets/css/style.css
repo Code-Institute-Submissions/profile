@@ -179,17 +179,40 @@ ul{
     list-style: none;
 }
 
-.my-skills-list{
+#my-skills{
+    height: 560px;
+    margin: auto;
+
     text-align: center;
+
+    padding-left: 14%;
+    padding-right: 14%;
+
+    color: rgba(60, 60, 60)
 }
 
+.skills-background{
+    background-image: url("../images/map-and-ipad-vertical.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn-link{
+    color: rgba(60, 60, 60);
+}
+
+.btn:hover{
+    color: royalblue;
+}
+
+.card{
+    background-color: rgb(242, 242, 242, .9);
+}
 
 /*--------------------------------------------brands*/
-
 #my-brands{
-    background-image: url("../images/lamp.png");
     height: 500px;
-
     margin: auto;
 }
 
@@ -253,10 +276,11 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
     text-align: center;
     height: 500px;
 
-    background-image: url("https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("../images/laptop-and-glasses.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #contact-form{

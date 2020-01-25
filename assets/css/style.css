@@ -256,6 +256,16 @@ ul{
     height: 600px;
 }
 
+.carousel-item{
+    height: auto;
+    width: 860px;
+
+    margin: auto;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 /*--------------------------------------------contact*/
 
 /*coffee pictures from unsplash

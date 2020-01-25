@@ -49,7 +49,7 @@ body{
     background-attachment: fixed;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .jumbotron{
         background-size: cover;
         background-position: top;
@@ -90,6 +90,10 @@ bottom padding is 15px
 left padding is 20px
 */
 
+.container{
+    padding-top: 8px;
+}
+
 .container-title h1{
     padding-top: 90px;
 }
@@ -114,7 +118,7 @@ section{
     background-size: cover;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 #about-me{
     background-image: none;
     background-repeat: no-repeat;
@@ -144,26 +148,26 @@ section{
 }
 /*-------------------------------------mobile-about-me*/
 
-@media (max-width: 500px) {
-#about-me{
-    background-image: none;
-    height: 840px;
-}
-
-.container-title h1,
-.container-title p{
-    text-align: center;
-    vertical-align: middle;
+@media only screen and (max-width: 600px) {
+    #about-me{
+        background-image: none;
+        height: 840px;
     }
 
-#profile-picture-mobile{
-    background-image: url("../images/profile-vertical.png");  
-    background-size: contain;
-    background-repeat: no-repeat;
+    .container-title h1,
+    .container-title p{
+        text-align: center;
+        vertical-align: middle;
+        }
 
-    height: 500px;
+    #profile-picture-mobile{
+        background-image: url("../images/profile-vertical.png");  
+        background-size: contain;
+        background-repeat: no-repeat;
 
-    }
+        height: 500px;
+
+        }
 }
 
 /*--------------------------------------------unsplash-pictures*/
@@ -189,10 +193,10 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
     background-attachment: fixed;
 }
 
-
-
 .col-sm{
     background-color: rgb(242, 242, 242, .9);
+
+    height: 245px;
 
     position: relative;
     top: 15%;
@@ -201,32 +205,40 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
 }
 
 .col-sm h3,
-.col-sm p{
+.col-sm p
+.col-sm img{
     color: #333333;
     
     text-align: center;
     position: relative;
-    top: 10%;
+    vertical-align: middle;
 }
 
 .col-sm h3{
     padding-top: 25px;
 }
 
-.container{
-    padding-top: 8px;
+/*-------------------------------------------mobile-my-work*/
+@media only screen and (max-width: 600px) {
+
+    .col-sm{
+        height: 260px;
+    }
+
+    .work-icons{
+        width: 360px;
+        height: 60px;
+    }
+}
+
+.work-icons{
+    width: 245px;
+    height: 45px;
 }
 
 span{
     padding-top: 8px;
     width: 8px;
-}
-
-#work-icons{
-    width: inherit;
-    height: 30px;
-
-    size: contain;
 }
 
 /*--------------------------------------------my-skills*/
@@ -382,7 +394,7 @@ https://images.unsplash.com/photo-1510586909270-7b3ba37fd565?ixlib=rb-1.2.1&ixid
 
 /*--------------------------------------------media queries*/
 /*--------------------work*/
-@media(max-width: 992px) {
+@media only screen and (max-width: 992px) {
     #my-work {
         height: 1800px;
     }

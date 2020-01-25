@@ -54,7 +54,7 @@ p{
     margin-right: 2%;
 
     position: absolute;
-    top: 80px;
+    vertical-align: middle;
 }
 
 .container-title h1,
@@ -63,13 +63,13 @@ p{
     
     margin-left: 2%;
     margin-right: 2%;
-
     padding-left: 40px;
     padding-right: 40px;
 
     text-align: center;
     overflow: hidden;
-    color:  rgba(60, 60, 60;
+
+    color:  rgba(60, 60, 60);
 }
 
 /*
@@ -96,16 +96,39 @@ section{
     height:500px;
     width: 100%;
 
-    background: url("https://images.unsplash.com/photo-1550926781-93aef598b010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("../images/profile-half-dark.png");
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+}
+
+@media (max-width: 500px) {
+#about-me{
+    background-image: none;
+    height: 800px;
+}
+
+.container-title h1,
+.container-title p{
+    text-align: center;
+    vertical-align: middle;
+    }
+
+#profile-picture-mobile{
+    background-image: url("../images/profile-vertical.png");  
+    height: 600px;
+
+    background-size: cover;
+
+    }
 }
 
 .text-block{
     padding-top: 35px;
+
     text-align: center;
+    vertical-align: middle;
 }
 /*--------------------------------------------unsplash-pictures*/
 /*

@@ -103,11 +103,39 @@ section{
     height:500px;
     width: 100%;
 
+<<<<<<< HEAD
     background-image: url("../images/profile-half.png");
+=======
+    background-image: url("../images/profile-half-dark.png");
+>>>>>>> a089efa209b65706b8eee5df6184916edf6854cf
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 500px) {
+#about-me{
+    background-image: none;
+    height: 800px;
+}
+
+.container-title h1,
+.container-title p{
+    text-align: center;
+    vertical-align: middle;
+    }
+
+#profile-picture-mobile{
+    background-image: url("../images/profile-vertical.png");  
+    height: 600px;
+
+    background-size: cover;
+
+    }
+>>>>>>> a089efa209b65706b8eee5df6184916edf6854cf
 }
 
 .text-block{
@@ -115,6 +143,7 @@ section{
 
     text-align: center;
     vertical-align: middle;
+<<<<<<< HEAD
 }
 
 /*-------------------------------------mobile-about-me*/
@@ -123,6 +152,8 @@ section{
 #about-me{
     background-image: none;
     height: 840px;
+=======
+>>>>>>> a089efa209b65706b8eee5df6184916edf6854cf
 }
 
 .container-title h1,

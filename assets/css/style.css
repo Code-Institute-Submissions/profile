@@ -38,10 +38,10 @@ body{
 
 /*--------------------------------------------landing-view*/
 .jumbotron{
-    height:700px;
+    height:580px;
     width: 100%;
     
-    background-image: url("../images/open-doors.png");
+    background-image: url("../images/laptop-carpet.png");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,28 +131,36 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
     margin-left: 2px;
     margin-right: 2px;
 
-    background-image: url("../images/chair-and-laptop.png");
+    background-image: url("../images/ipad-and-notebook.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+/*
+#my-work h2,
+#my-work p{
+    color: rgba(242, 242, 242)
+}
+*/
+
 .col-sm{
-    background-color: rgb(242, 242, 242, .7);
+    background-color: rgb(242, 242, 242, .8);
 
     height: 245px;
-
-    position: relative;
     top: 15%;
 
+    border-radius: 8px;
+
+    position: relative;
     overflow: hidden;
 }
 
 .col-sm h3,
-.col-sm p
+.col-sm p,
 .col-sm img{
-    color: #333333;
+    color: rgba(60, 60, 60);
     
     text-align: center;
     position: relative;
@@ -192,7 +200,7 @@ ul{
 }
 
 .skills-background{
-    background-image: url("../images/wall.png");
+    background-image: url("../images/laptop-carpet.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -212,7 +220,8 @@ ul{
 }
 
 .card{
-    background-color: rgb(242, 242, 242, .9);
+    background-color: rgb(242, 242, 242, .8);
+    border-radius: 6px;
 }
 
 /*--------------------------------------------brands*/
@@ -372,6 +381,19 @@ ul{
     }
 }
 
+@media (max-width: 360px) {
+    #my-work{
+        height: 1880px;
+    }
+    .col-sm{
+        height: 265px;
+    }
+    .work-icons{
+        width: auto;
+        height: 44px;
+    }
+}
+
 /*-----------------------------------my-brands*/
 @media (max-width: 992px) {
     #my-brands{
@@ -415,12 +437,14 @@ ul{
 #my-skills{
     height: 860px;
     margin: auto;
+    padding-left: 6%;
+    padding-right: 6%;
     }
 }
 
 @media (max-width: 360px) {
 #my-skills{
-    height: 900px;
+    height: 1000px;
     margin: auto;
     }
 }
@@ -449,6 +473,9 @@ ul{
         padding-right: 0px;
     }  
 @media (max-width: 360px) {
+    #recommendations{
+        height: 500px;
+    }
     .carousel-item{
         width: 260px;
         padding-left: 0px;

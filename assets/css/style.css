@@ -105,7 +105,8 @@ section{
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-attachment: fixed;
 }
 
 .text-block{
@@ -442,7 +443,7 @@ ul{
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
 #my-skills{
     height: 1000px;
     margin: auto;

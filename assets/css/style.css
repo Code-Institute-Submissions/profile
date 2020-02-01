@@ -41,7 +41,7 @@ body{
     height:580px;
     width: 100%;
     
-    background-image: url("../images/laptop-right.png");
+    background-image: url("../images/open-doors.png");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,6 +52,8 @@ body{
 .container-title{
     height: 560px;
     width: 96%;
+
+    margin-top: 56px;
     
     margin-left: 2%;
     margin-right: 2%;

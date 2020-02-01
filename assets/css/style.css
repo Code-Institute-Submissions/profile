@@ -41,7 +41,7 @@ body{
     height:580px;
     width: 100%;
     
-    background-image: url("../images/laptop-carpet.png");
+    background-image: url("../images/laptop-right.png");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,7 +290,7 @@ ul{
 
 #contact{
     text-align: center;
-    height: 800px;
+    height: 400px;
 
     background-image: url("../images/map-and-ipad-vertical.png");
     background-position: bottom;

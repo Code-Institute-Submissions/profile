@@ -126,7 +126,7 @@ https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid
 
 /*--------------------------------------------my-work*/
 #my-work{
-    height:700px;
+    height:880px;
     width: 100%;
     
     margin-left: 2px;
@@ -189,7 +189,7 @@ ul{
 }
 
 #my-skills{
-    height: 560px;
+    height: 760px;
     margin: auto;
 
     text-align: center;
@@ -197,7 +197,7 @@ ul{
     padding-left: 14%;
     padding-right: 14%;
 
-    color: rgba(60, 60, 60);
+    color: rgba(60, 60, 60, .9);
 }
 
 .skills-background{
@@ -221,7 +221,7 @@ ul{
 }
 
 .card{
-    background-color: rgb(242, 242, 242, .8);
+    background-color: rgb(242, 242, 242, .9);
     border-radius: 6px;
 }
 
@@ -252,10 +252,7 @@ ul{
     margin-bottom: 6px;
  }
 
-/*--------------------------------------------studies & certifications*/
-#education ul{
-    text-align: center;
-}
+/*--------------------------------------------download-cv*/
 
 .download-cv{
     text-align: center;
@@ -290,7 +287,7 @@ ul{
 
 #contact{
     text-align: center;
-    height: 400px;
+    height: 600px;
 
     background-image: url("../images/map-and-ipad-vertical.png");
     background-position: bottom;
@@ -317,14 +314,22 @@ ul{
 }
 
 #navigation-menu{
-    background-color: rgba(229, 229, 229);
+    background-color: rgba(20, 19, 19, 0.781);
     transition: 0.4s;
     position: fixed;
 }
 
-#navigation-menu a:hover{
-    color: black;
+#navigation-menu a{
+    color: whitesmoke;
 }
+
+#navigation-menu a:hover{
+    color: white;
+}
+
+
+/*--------------------------------------------footer*/
+
 
 
 /*-------------------------------------------@media-queries*/
@@ -358,7 +363,7 @@ ul{
 /*-----------------------------------my-work*/
 @media only screen and (max-width: 992px) {
     #my-work{
-        height: 900px;
+        height: 1140px;
     }
     .col-sm{
         height: 320px;
@@ -382,9 +387,9 @@ ul{
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     #my-work{
-        height: 1880px;
+        height: 2260px;
     }
     .col-sm{
         height: 265px;

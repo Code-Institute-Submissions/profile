@@ -7,13 +7,23 @@ In the future, this site will also contain an overview of coding projects as wel
 UX
 The main purpose of the site is to be used as a professional reference or portfolio and is intended to be read by colleagues, recruiters or potentially customers. To add value for the user in comparison to LinkedIn profile, this site displays areas of expertise in a detail way as well as personal competences.
 The information has been structured under the progressive disclosure principle, starting with a short introduction called “about-me” and systematically disclosing more detailed information. The “my-work” section describes the areas of expertise, while the following sections “my-skills”, “my-brands” and “recommendations” provide reassurance about the professional skills and competences to work within those areas of expertise. Finally, the “contact” section provides an option for the user to send a message and get in contact.
-    These are the actions the user can do on this site today:
-        x Discovering the profile by scrolling through the sections.
-        x Downloading a pdf-version of a CV.
-        x Visiting a LinkedIn profile via a hyperlink.
-        x Leaving a message.
-        x This site was built as a mobile-first site, therefore the selected layout has been one long layout with different sections which the user can scroll through. The navbar plays a secondary role here, and should guide the user whenever needed.
-    
+These are the actions the user can do on this site today:
+    x Discovering the profile by scrolling through the sections.
+    x Downloading a pdf-version of a CV.
+    x Visiting a LinkedIn profile via a hyperlink.
+    x Leaving a message.
+    x Check the privacy policy and terms and conditions.
+    x Use the navigation bar to move through the site and its different pages.
+
+This site was built as a mobile-first site, therefore the selected layout has been one long layout with different sections which the user can scroll through. The navbar plays a secondary role here, and should guide the user whenever needed.
+
+User stories:
+    x A user wants to read more about the profile, scrolls down to the end of the page. Alternatively the user could click on an item of the navigation menu to jump to the section of their interest.
+    x A user wants to download a printable PDF version of the profile’s CV. The user scrolls down to the section under Competences and clicks on the call-to-action in blue that says “Download my CV”. A new page opens in a new window, and the user can either read the PDF directly there or download it to their desktop.
+    x A user is able to contact the site owner by filling out the contact form at the bottom of the page. After completing the required fields such as name, address and message, the user can click on the submit button to send their message.
+    x A user wants to take a look at the privacy policy or terms and conditions of the page. The user can do so by scrolling down all the way down to the end of the page, in the footer the user can find a link to each of these pages. The user then can navigate back to the home page or index.html by using the buttom in the top left corner.
+    x At any moment, when the user has scrolled to the bottom of the page, the user is able to use the ‘Back to top’ clickable text at the bottom right of the footer which will allow the user to jump to one of the top sections.
+
 <!-------------------------------------------------MISSING-------->
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 As a user type, I want to perform an action, so that I can achieve a goal.
@@ -32,12 +42,13 @@ Existing Features
     x Feature 3, “recommendations” section - allows the user to see a slideshow of five LinkedIn recommendations or use the arrows to scroll through them themselves.
     x Feature 4 hyperlink to Linkedin - allows the user to visit the LinkedIn profile to read more recommendations by click on the hyperlink in the text description.
     x Feature 5 download link - allows the user to download a pdf-version of a CV by clicking on the download highlighted text.
-    x Feature 6 contact form - allows the user to send a message by filling in the contact form.
+    
 
 Features Left to Implement
-    x In the future, this site will also act as a developer’s portfolio. Potential features to be developed are a visual overview and short description of each of the projects with clickable links to GitHub.
-    x Navigation menu that closes after you select an item - via Javascript
-    x Effect where the content sections appear from the sides as you scroll down through the site - via Javascript
+    x Contact form - allows the user to send a message by filling in the contact form. The back-end of this feature is not implemented, currently it is only front end.
+    x Portfolio with links to github - a visual overview and short description of each development/coding project with clickable links to GitHub.
+    x Navigation menu that closes after clicking on an item.
+    x Animation effect where the content sections appear from the sides as you scroll down through the site.
 
 <!-------------------------------------------------intro-------->
 Technologies Used
@@ -56,37 +67,23 @@ Technologies Used
     x W3schools tutorials:
         Used to clarify and solidify knowledge acquired during the course.
 
-<!-------------------------------------------------testing MISSING-------->
+<!-------------------------------------------------testing-------->
 Testing
     I have tested the site by using the Google developer tools and tested the adaptability of the content to different devices. The site and all it’s styling elements displayed as expected in desktop as well as in the following mobile-devices: Galaxy 5s, Pixel 2, Pixel XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad and iPad Pro.
     The navigation menu to scroll to different sections worked in all devices.
 
-    In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-    Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-    For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-    Try to submit the empty form and verify that an error message about the required fields appears
-    Try to submit the form with an invalid email address and verify that a relevant error message appears
-    Try to submit the form with all inputs valid and verify that a success message appears.
-    In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-    You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-    If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-<!-------------------------------------------------deployment MISSING-------->
+<!-------------------------------------------------deployment-------->
 Deployment
-    This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-    In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-    Different values for environment variables (Heroku Config Vars)?
-    Different configuration files?
-    Separate git branch?
-    In addition, if it is not obvious, you should also describe how to run your code locally.
+    To deploy this site, I first went to Github and selected the Settings tab, then I scrolled down to the section named Github Pages. I then proceeded to select ‘master’ as the main branch and clicked on save.
+    My site is currently hosted under the following url: https://alex-rabi.github.io/profile/. 
+    
+    In the future I would like my site to be hosted under a custom domain alexandra-rabi.com
+    
+    The deployed version and the version currently in development are the same.
 
-<!-------------------------------------------------credits MISSING-------->
+<!-------------------------------------------------credits-------->
 Credits
-Content
-The content sections were written by the author of the site.
+    I would like to thank the creators of the free libraries, icons and photographic content that helped me create this site. I would also like to highlight that the contents of these sites were written by the author of the site.
 
 <!-------------------------------------------------media-------->
 Media
@@ -98,6 +95,6 @@ x Some of the icons on this site such as the social media icons were from Flatic
 
 <!-------------------------------------------------acknowledgements-------->
 Acknowledgements
-I was inspired by the simple, visual and clearly organized design of the ‘StudentExampleProjectGradeFive’:
-https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/index.html
+    I was inspired by the visual and clearly organized design of the ‘StudentExampleProjectGradeFive’:
+    https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/index.html
 

@@ -347,7 +347,7 @@ ul{
     #about-me{
         background-image: none;
         background-repeat: no-repeat;
-        height: 800px;
+        height: 900px;
     }
     .container-title h1,
     .container-title p{
@@ -359,16 +359,17 @@ ul{
         height: 600px;
 
         background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 
 /*-----------------------------------my-work*/
 @media only screen and (max-width: 992px) {
     #my-work{
-        height: 1140px;
+        height: 1100px;
     }
     .col-sm{
-        height: 320px;
+        height: 328px;
     }
     .work-icons{
         width: auto;
@@ -376,14 +377,24 @@ ul{
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
+    .col-sm{
+        height: 320px;
+    }
+    .work-icons{
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
     #my-work{
-        height: 1850px;
+        height: 2100px;
     }
     .col-sm{
         height: 265px;
     }
     .work-icons{
+        display: inline-block;
         width: auto;
         height: 44px;
     }
@@ -391,12 +402,13 @@ ul{
 
 @media (max-width: 375px) {
     #my-work{
-        height: 2260px;
+        height: 2200px;
     }
     .col-sm{
         height: 265px;
     }
     .work-icons{
+        display: inline-block;
         width: auto;
         height: 44px;
     }
@@ -409,7 +421,7 @@ ul{
     }
 
     .brand-logos{
-        height: 360px;
+        height: 290px;
         width: auto;
     }
 }

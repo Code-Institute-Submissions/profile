@@ -15,7 +15,9 @@ These are the actions the user can do on this site today:
     - Check the privacy policy and terms and conditions.
     - Use the navigation bar to move through the site and its different pages.
 
-This site was built as a mobile-first site, therefore the selected layout has been one long layout with different sections which the user can scroll through. The navbar plays a secondary role here, and should guide the user whenever needed.
+This site was built as a mobile-first site, therefore the selected layout has been one long layout with different sections which the user can scroll through. 
+The navbar plays a secondary role here, and should guide the user whenever needed.
+Initial mockups of the contents and structure can be found here: https://alex-rabi.github.io/profile/downloads/mockups.png
 
 **User stories:**
     - A user wants to read more about the profile, scrolls down to the end of the page. Alternatively the user could click on an item of the navigation menu to jump to the section of their interest.

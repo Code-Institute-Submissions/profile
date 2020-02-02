@@ -473,7 +473,6 @@ ul{
 
 @media (max-width: 1024px) {
     #recommendations{
-        text-align: center;
         height: 580px;
     }
     .carousel-item{

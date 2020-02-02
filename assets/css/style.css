@@ -38,7 +38,7 @@ body{
 
 /*--------------------------------------------landing-view*/
 .jumbotron{
-    height:580px;
+    height:700px;
     width: 100%;
     
     background-image: url("../images/open-doors.png");
@@ -100,7 +100,7 @@ section{
 
 /*--------------------------------------------about-me*/
 #about-me{
-    height:500px;
+    height:560px;
     width: 100%;
 
     background-image: url("../images/profile-half.png");

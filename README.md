@@ -64,8 +64,13 @@ This site was built as a mobile-first site, therefore the selected layout has be
 
 <!-------------------------------------------------testing-------->
 **Testing**
-    I have tested the site by using the Google developer tools and tested the adaptability of the content to different devices. The site and all it’s styling elements displayed as expected in desktop as well as in the following mobile-devices: Galaxy 5s, Pixel 2, Pixel XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad and iPad Pro.
-    The navigation menu to scroll to different sections worked in all devices.
+
+    - The content resized correctly according to different device sizes.
+        The site was tested using the Google developer tools and tested in the following mobile-devices: Galaxy 5s, Pixel 2, Pixel XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad and iPad Pro. 
+    - The content displays correct in different operative systems:
+        In addition, the site was tested on two devices Android, iOs as well as in two different desktop operative systems Chrome and Safari.
+    - All links redirect correctly in the navigation menu and footer.
+    - Download CV link worked correctly on different devices.
 
 <!-------------------------------------------------deployment-------->
 **Deployment**

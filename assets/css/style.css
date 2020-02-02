@@ -267,6 +267,8 @@ ul{
 /*--------------------------------------------recommendations*/
 #recommendations{
     text-align: center;
+    margin: auto;
+    
     height: 600px;
 }
 
